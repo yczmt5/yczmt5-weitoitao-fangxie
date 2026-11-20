@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""YT-F-skill 交稿前机检（守门员）——所有文体通用，一条命令跑完全部检查。
+"""YC-FX-skill 交稿前机检（守门员）——所有文体通用，一条命令跑完全部检查。
 
 用法：
     python sim_check.py <原文文件> <新稿文件>
@@ -360,7 +360,7 @@ def main():
     form = "罗列式" if is_list else "故事型"
 
     say("=" * 58)
-    say("YT-F-skill 机检 · 判定文体：%s" % form)
+    say("YC-FX-skill 机检 · 判定文体：%s" % form)
     say("参考文：%s    新稿：%s" % (os.path.basename(args.ref), os.path.basename(args.new)))
     say("=" * 58)
 
