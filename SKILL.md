@@ -1,11 +1,11 @@
 ---
-name: yt-f-skill
+name: yc-fx-skill
 description: This skill should be used when the user provides a reference article and asks for deep imitation, structural rewriting, style transfer, or a new article written according to that reference. It first identifies the article form, then freezes the central thesis, extracts the reference-specific writing mechanisms, isolates the original from the writer via a subagent, and rebuilds an independent article with the same taste but entirely new material.
-version: 2026.10.11
+version: 2026.11.20
 agent_created: true
 ---
 
-# YT-F-skill：深度仿写系统
+# YC-FX-skill：深度仿写系统
 
 ## 定位
 
